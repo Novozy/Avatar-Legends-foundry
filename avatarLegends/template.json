@@ -1,0 +1,36 @@
+{
+    "Actor": {},
+    "Item": {
+        "types": [
+            "weapon",
+            "elementalBend",
+            "clothes"
+        ],
+        "templates": {
+            "itemDescription": {
+                "description":""
+            }
+        },
+        "weapon": {
+            "templates": [
+                "itemDescription"
+            ],
+            "attackWith": "melee",
+            "damage": 0,
+            "concealment": 0,
+            "throwable": false
+        },
+        "elementalBend": {
+            "templates": [
+                "itemDescription"
+            ],
+            "damage": 0
+        },
+        "clothes": {
+            "templates": [
+                "itemDescription"
+            ],
+            "armor": 0
+        }
+    }
+}
